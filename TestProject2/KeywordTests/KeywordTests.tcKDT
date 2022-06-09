@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="child list">
+			<Node name="item0000000000">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Test6.tcKDTest"/>
+				</Node>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="key" type="S" value="{EB591EEA-AFE7-4BA2-86CC-5F645D289096}"/>
+				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+				<Prp name="typename" type="S" value="Keyword Test"/>
+			</Node>
+			<Node name="item0000000001">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Test7.tcKDTest"/>
+				</Node>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="key" type="S" value="{67F84F3C-C814-42C2-B652-E8FAAF1CEFBB}"/>
+				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+				<Prp name="typename" type="S" value="Keyword Test"/>
+			</Node>
+			<Node name="item0000000002">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Test8.tcKDTest"/>
+				</Node>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="key" type="S" value="{8A85063C-13AB-4245-9406-CD582AF90128}"/>
+				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+				<Prp name="typename" type="S" value="Keyword Test"/>
+			</Node>
+			<Node name="item0000000003">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Test9.tcKDTest"/>
+				</Node>
+				<Prp name="index" type="I" value="3"/>
+				<Prp name="key" type="S" value="{9126716B-F38C-493E-85BD-2D1FB7214593}"/>
+				<Prp name="type" type="S" value="{B9D9273E-7266-43E0-BF02-97F168593604}"/>
+				<Prp name="typename" type="S" value="Keyword Test"/>
+			</Node>
+		</Node>
+		<Node name="folders">
+			<Node name="folders"/>
+		</Node>
+		<Node name="settings">
+			<Prp name="settingsversion" type="S" value="8.70"/>
+		</Node>
+		<Prp name="signature" type="S" value="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}"/>
+		<Prp name="version" type="S" value="8.0"/>
+	</Node>
+</Nodes>
