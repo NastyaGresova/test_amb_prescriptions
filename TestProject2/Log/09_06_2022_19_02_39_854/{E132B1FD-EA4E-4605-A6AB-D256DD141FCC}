@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 5">
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="44721.793590625"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="remarks" type="S" value="A click at point (40, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Automedi.AMMain.pGlossaire.pMain.PageControl1.PanelGlossDrug.pcDrugs.tsDrugList.GridDrugsForm.tbICD&#xA;(Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pGlossaire&quot;).VCLObject(&quot;pMain&quot;).VCLObject(&quot;PageControl1&quot;).VCLObject(&quot;PanelGlossDrug&quot;).VCLObject(&quot;pcDrugs&quot;).VCLObject(&quot;tsDrugList&quot;).VCLObject(&quot;GridDrugsForm&quot;).VCLObject(&quot;tbICD&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="44721.793566088"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Automedi.AMMain.pGlossaire.pMain.PageControl1.PanelGlossDrug.pcDrugs.tsDrugList.GridDrugsForm.pTop.pTool.ToolBarView.PopupMenu&#xA;(Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pGlossaire&quot;).VCLObject(&quot;pMain&quot;).VCLObject(&quot;PageControl1&quot;).VCLObject(&quot;PanelGlossDrug&quot;).VCLObject(&quot;pcDrugs&quot;).VCLObject(&quot;tsDrugList&quot;).VCLObject(&quot;GridDrugsForm&quot;).VCLObject(&quot;pTop&quot;).VCLObject(&quot;pTool&quot;).VCLObject(&quot;ToolBarView&quot;).PopupMenu)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The menu item 'основное заболевание: Другие железодефицитные анемии' was clicked."/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="44721.7935747338"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="remarks" type="S" value="A click at point (40, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Automedi.AMMain.pGlossaire.pMain.PageControl1.PanelGlossDrug.pcDrugs.tsDrugList.GridDrugsForm.tbICD&#xA;(Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pGlossaire&quot;).VCLObject(&quot;pMain&quot;).VCLObject(&quot;PageControl1&quot;).VCLObject(&quot;PanelGlossDrug&quot;).VCLObject(&quot;pcDrugs&quot;).VCLObject(&quot;tsDrugList&quot;).VCLObject(&quot;GridDrugsForm&quot;).VCLObject(&quot;tbICD&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 6">
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="44721.7935986921"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Automedi.AMMain.pGlossaire.pMain.PageControl1.PanelGlossDrug.pcDrugs.tsDrugList.GridDrugsForm.pTop.pTool.ToolBarView.PopupMenu&#xA;(Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pGlossaire&quot;).VCLObject(&quot;pMain&quot;).VCLObject(&quot;PageControl1&quot;).VCLObject(&quot;PanelGlossDrug&quot;).VCLObject(&quot;pcDrugs&quot;).VCLObject(&quot;tsDrugList&quot;).VCLObject(&quot;GridDrugsForm&quot;).VCLObject(&quot;pTop&quot;).VCLObject(&quot;pTool&quot;).VCLObject(&quot;ToolBarView&quot;).PopupMenu)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The menu item 'сопутствующее заболевание: Легочный отек' was clicked."/>
+		</Node>
+		<Node name="units"/>
+		<Node name="message 4">
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="44721.7935828241"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.Automedi.AMMain.pGlossaire.pMain.PageControl1.PanelGlossDrug.pcDrugs.tsDrugList.GridDrugsForm.pTop.pTool.ToolBarView.PopupMenu&#xA;(Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pGlossaire&quot;).VCLObject(&quot;pMain&quot;).VCLObject(&quot;PageControl1&quot;).VCLObject(&quot;PanelGlossDrug&quot;).VCLObject(&quot;pcDrugs&quot;).VCLObject(&quot;tsDrugList&quot;).VCLObject(&quot;GridDrugsForm&quot;).VCLObject(&quot;pTop&quot;).VCLObject(&quot;pTool&quot;).VCLObject(&quot;ToolBarView&quot;).PopupMenu)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The menu item 'осложнение основного заболевания: Хронический верхнечелюстной синусит' was clicked."/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="44721.7935508796"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (449, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Automedi.AMMain.pResume.pForm.pSPEGRE.TScrollBoxWithControls.TPatDocControl_DA9944085BBF48B1A654475E76146D49.TPageControl.TTabSheet.PatDrugDocAmbForm.PanelTop.TabControl1.PanelNaznach.SimplePanel.edMed&#xA;(Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pResume&quot;).VCLObject(&quot;pForm&quot;).VCLObject(&quot;pSPEGRE&quot;).Window(&quot;TScrollBoxWithControls&quot;, &quot;&quot;, 1).VCLObject(&quot;TPatDocControl_DA9944085BBF48B1A654475E76146D49&quot;).Window(&quot;TPageControl&quot;, &quot;&quot;, 1).Window(&quot;TTabSheet&quot;, &quot;Амбулаторные назначения&quot;, 1).VCLObject(&quot;PatDrugDocAmbForm&quot;).VCLObject(&quot;PanelTop&quot;).VCLObject(&quot;TabControl1&quot;).VCLObject(&quot;PanelNaznach&quot;).VCLObject(&quot;SimplePanel&quot;).VCLObject(&quot;edMed&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 1">
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="44721.7935574306"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="A click at point (40, 16) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Automedi.AMMain.pGlossaire.pMain.PageControl1.PanelGlossDrug.pcDrugs.tsDrugList.GridDrugsForm.tbICD&#xA;(Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pGlossaire&quot;).VCLObject(&quot;pMain&quot;).VCLObject(&quot;PageControl1&quot;).VCLObject(&quot;PanelGlossDrug&quot;).VCLObject(&quot;pcDrugs&quot;).VCLObject(&quot;tsDrugList&quot;).VCLObject(&quot;GridDrugsForm&quot;).VCLObject(&quot;tbICD&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="stack"/>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

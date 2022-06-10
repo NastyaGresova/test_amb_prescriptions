@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 9">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44721.7879806134"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (26, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pResume&quot;).VCLObject(&quot;pForm&quot;).VCLObject(&quot;pSPEGRE&quot;).Window(&quot;TScrollBoxWithControls&quot;, &quot;&quot;, 1).VCLObject(&quot;TFormContainer_6C9F6C7474D94283A5C611485257F3B8&quot;).VCLObject(&quot;TNLine_482BE52676A047F797752AEF8312E0FF&quot;).VCLObject(&quot;tbNew&quot;)"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44721.7875806366"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (44, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Automedi.fNewCons.Panel1.Panel2.BitBtn1&#xA;(Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;fNewCons&quot;).VCLObject(&quot;Panel1&quot;).VCLObject(&quot;Panel2&quot;).VCLObject(&quot;BitBtn1&quot;))"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 17">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44721.7882193171"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'4307' was sent as a keyboard input to a window:&#xA;&#xA;Tested object:&#xA;Aliases.Automedi.ClassifLookDocTree.ListPanel.pGrid.pSearch.TEdit&#xA;(Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;ClassifLookDocTree&quot;).VCLObject(&quot;ListPanel&quot;).VCLObject(&quot;pGrid&quot;).VCLObject(&quot;pSearch&quot;).Window(&quot;TEdit&quot;, &quot;&quot;, 1))"/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+		</Node>
+		<Node name="units"/>
+		<Node name="message 10">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44721.788018125"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'1 - основное заболевание' was sent as a keyboard input to a window:&#xA;&#xA;Tested object:&#xA;Aliases.Automedi.AMMain.pResume.pForm.pSPEGRE.TScrollBoxWithControls.TFormContainer_6C9F6C7474D94283A5C611485257F3B8.TDBRadioCombo_B7DD45A628B14ED2A20CD4973844CDAF.TDBValuesComboBox&#xA;(Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pResume&quot;).VCLObject(&quot;pForm&quot;).VCLObject(&quot;pSPEGRE&quot;).Window(&quot;TScrollBoxWithControls&quot;, &quot;&quot;, 1).VCLObject(&quot;TFormContainer_6C9F6C7474D94283A5C611485257F3B8&quot;).VCLObject(&quot;TDBRadioCombo_B7DD45A628B14ED2A20CD4973844CDAF&quot;).Window(&quot;TDBValuesComboBox&quot;, &quot;&quot;, 1))"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+		</Node>
+		<Node name="message 24">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44721.7884219792"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (66, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;TSpeedButton_10&quot;)"/>
+			<Prp name="id" type="I" value="24"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44721.7875842361"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (37, 13) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Automedi.TMessageForm.No&#xA;(Sys.Process(&quot;Automedi&quot;).Window(&quot;TMessageForm&quot;, &quot;Подтверждение&quot;, 1).VCLObject(&quot;No&quot;))"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44721.7875433333"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'терапевт' was sent as a keyboard input to a window:&#xA;&#xA;Tested object:&#xA;Aliases.Automedi.fNewCons.PageControl2.MainTabSheet.BasePanel.TypeRecPanel.TPanel.lbModels&#xA;(Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;fNewCons&quot;).VCLObject(&quot;PageControl2&quot;).VCLObject(&quot;MainTabSheet&quot;).VCLObject(&quot;BasePanel&quot;).VCLObject(&quot;TypeRecPanel&quot;).Window(&quot;TPanel&quot;, &quot;&quot;, 1).VCLObject(&quot;lbModels&quot;))"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+		</Node>
+		<Node name="message 18">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44721.7882464236"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (15, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;ClassifLookDocTree&quot;).VCLObject(&quot;BtnOk&quot;)"/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 11">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44721.7880218866"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (11, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Automedi.AMMain.pResume.pForm.pSPEGRE.TScrollBoxWithControls.TFormContainer_6C9F6C7474D94283A5C611485257F3B8.TDBLookup_84F7CC410C7F4B469C0F222C0BB9DBC8.bRun&#xA;(Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pResume&quot;).VCLObject(&quot;pForm&quot;).VCLObject(&quot;pSPEGRE&quot;).Window(&quot;TScrollBoxWithControls&quot;, &quot;&quot;, 1).VCLObject(&quot;TFormContainer_6C9F6C7474D94283A5C611485257F3B8&quot;).VCLObject(&quot;TDBLookup_84F7CC410C7F4B469C0F222C0BB9DBC8&quot;).VCLObject(&quot;bRun&quot;))"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 4">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44721.7876698611"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (23, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Automedi.AMMain.bNewEditCons&#xA;(Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;bNewEditCons&quot;))"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 19">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44721.7882725926"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (26, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pResume&quot;).VCLObject(&quot;pForm&quot;).VCLObject(&quot;pSPEGRE&quot;).Window(&quot;TScrollBoxWithControls&quot;, &quot;&quot;, 1).VCLObject(&quot;TFormContainer_6C9F6C7474D94283A5C611485257F3B8&quot;).VCLObject(&quot;TNLine_482BE52676A047F797752AEF8312E0FF&quot;).VCLObject(&quot;tbNew&quot;)"/>
+			<Prp name="id" type="I" value="19"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 12">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44721.7880654745"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'1792' was sent as a keyboard input to a window:&#xA;&#xA;Tested object:&#xA;Aliases.Automedi.ClassifLookDocTree.ListPanel.pGrid.pSearch.TEdit&#xA;(Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;ClassifLookDocTree&quot;).VCLObject(&quot;ListPanel&quot;).VCLObject(&quot;pGrid&quot;).VCLObject(&quot;pSearch&quot;).Window(&quot;TEdit&quot;, &quot;&quot;, 1))"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44721.7874998148"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (23, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Automedi.AMMain.bNewEditCons&#xA;(Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;bNewEditCons&quot;))"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 5">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44721.7877100463"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'терапевт' was sent as a keyboard input to a window:&#xA;&#xA;Tested object:&#xA;Aliases.Automedi.fNewCons.PageControl2.MainTabSheet.BasePanel.TypeRecPanel.TPanel.lbModels&#xA;(Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;fNewCons&quot;).VCLObject(&quot;PageControl2&quot;).VCLObject(&quot;MainTabSheet&quot;).VCLObject(&quot;BasePanel&quot;).VCLObject(&quot;TypeRecPanel&quot;).Window(&quot;TPanel&quot;, &quot;&quot;, 1).VCLObject(&quot;lbModels&quot;))"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+		</Node>
+		<Node name="message 20">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44721.7883257407"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'3 - сопутствующее заболевание' was sent as a keyboard input to a window:&#xA;&#xA;Tested object:&#xA;Aliases.Automedi.AMMain.pResume.pForm.pSPEGRE.TScrollBoxWithControls.TFormContainer_6C9F6C7474D94283A5C611485257F3B8.TDBRadioCombo_B7DD45A628B14ED2A20CD4973844CDAF.TDBValuesComboBox&#xA;(Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pResume&quot;).VCLObject(&quot;pForm&quot;).VCLObject(&quot;pSPEGRE&quot;).Window(&quot;TScrollBoxWithControls&quot;, &quot;&quot;, 1).VCLObject(&quot;TFormContainer_6C9F6C7474D94283A5C611485257F3B8&quot;).VCLObject(&quot;TDBRadioCombo_B7DD45A628B14ED2A20CD4973844CDAF&quot;).Window(&quot;TDBValuesComboBox&quot;, &quot;&quot;, 1))"/>
+			<Prp name="id" type="I" value="20"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 13">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44721.7880922222"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (15, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;ClassifLookDocTree&quot;).VCLObject(&quot;BtnOk&quot;)"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 6">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44721.7877474769"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (44, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Automedi.fNewCons.Panel1.Panel2.BitBtn1&#xA;(Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;fNewCons&quot;).VCLObject(&quot;Panel1&quot;).VCLObject(&quot;Panel2&quot;).VCLObject(&quot;BitBtn1&quot;))"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 21">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44721.7883278588"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (11, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Automedi.AMMain.pResume.pForm.pSPEGRE.TScrollBoxWithControls.TFormContainer_6C9F6C7474D94283A5C611485257F3B8.TDBLookup_84F7CC410C7F4B469C0F222C0BB9DBC8.bRun&#xA;(Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pResume&quot;).VCLObject(&quot;pForm&quot;).VCLObject(&quot;pSPEGRE&quot;).Window(&quot;TScrollBoxWithControls&quot;, &quot;&quot;, 1).VCLObject(&quot;TFormContainer_6C9F6C7474D94283A5C611485257F3B8&quot;).VCLObject(&quot;TDBLookup_84F7CC410C7F4B469C0F222C0BB9DBC8&quot;).VCLObject(&quot;bRun&quot;))"/>
+			<Prp name="id" type="I" value="21"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 14">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44721.7881186921"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (26, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pResume&quot;).VCLObject(&quot;pForm&quot;).VCLObject(&quot;pSPEGRE&quot;).Window(&quot;TScrollBoxWithControls&quot;, &quot;&quot;, 1).VCLObject(&quot;TFormContainer_6C9F6C7474D94283A5C611485257F3B8&quot;).VCLObject(&quot;TNLine_482BE52676A047F797752AEF8312E0FF&quot;).VCLObject(&quot;tbNew&quot;)"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 7">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44721.7877508449"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (37, 13) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Automedi.TMessageForm.No&#xA;(Sys.Process(&quot;Automedi&quot;).Window(&quot;TMessageForm&quot;, &quot;Подтверждение&quot;, 1).VCLObject(&quot;No&quot;))"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 22">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44721.7883581597"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'4431' was sent as a keyboard input to a window:&#xA;&#xA;Tested object:&#xA;Aliases.Automedi.ClassifLookDocTree.ListPanel.pGrid.pSearch.TEdit&#xA;(Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;ClassifLookDocTree&quot;).VCLObject(&quot;ListPanel&quot;).VCLObject(&quot;pGrid&quot;).VCLObject(&quot;pSearch&quot;).Window(&quot;TEdit&quot;, &quot;&quot;, 1))"/>
+			<Prp name="id" type="I" value="22"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+		</Node>
+		<Node name="message 15">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44721.7881822222"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'2 - осложнение основного заболевания' was sent as a keyboard input to a window:&#xA;&#xA;Tested object:&#xA;Aliases.Automedi.AMMain.pResume.pForm.pSPEGRE.TScrollBoxWithControls.TFormContainer_6C9F6C7474D94283A5C611485257F3B8.TDBRadioCombo_B7DD45A628B14ED2A20CD4973844CDAF.TDBValuesComboBox&#xA;(Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pResume&quot;).VCLObject(&quot;pForm&quot;).VCLObject(&quot;pSPEGRE&quot;).Window(&quot;TScrollBoxWithControls&quot;, &quot;&quot;, 1).VCLObject(&quot;TFormContainer_6C9F6C7474D94283A5C611485257F3B8&quot;).VCLObject(&quot;TDBRadioCombo_B7DD45A628B14ED2A20CD4973844CDAF&quot;).Window(&quot;TDBValuesComboBox&quot;, &quot;&quot;, 1))"/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+		</Node>
+		<Node name="message 8">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44721.7878421991"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (66, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;TSpeedButton_6&quot;)"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 23">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44721.7883853819"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (15, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;ClassifLookDocTree&quot;).VCLObject(&quot;BtnOk&quot;)"/>
+			<Prp name="id" type="I" value="23"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 16">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="date" type="D" value="44721.788184294"/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (11, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Automedi.AMMain.pResume.pForm.pSPEGRE.TScrollBoxWithControls.TFormContainer_6C9F6C7474D94283A5C611485257F3B8.TDBLookup_84F7CC410C7F4B469C0F222C0BB9DBC8.bRun&#xA;(Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;pResume&quot;).VCLObject(&quot;pForm&quot;).VCLObject(&quot;pSPEGRE&quot;).Window(&quot;TScrollBoxWithControls&quot;, &quot;&quot;, 1).VCLObject(&quot;TFormContainer_6C9F6C7474D94283A5C611485257F3B8&quot;).VCLObject(&quot;TDBLookup_84F7CC410C7F4B469C0F222C0BB9DBC8&quot;).VCLObject(&quot;bRun&quot;))"/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

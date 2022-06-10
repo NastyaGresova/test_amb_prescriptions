@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="item0000000000">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="461"/>
+					<Prp name="click point y" type="I" value="32"/>
+					<Prp name="datetime" type="D" value="44699.406412037"/>
+					<Prp name="image file name" type="S" value="tcvi23440.png"/>
+					<Prp name="line #" type="I" value="0"/>
+					<Prp name="object bottom" type="I" value="40"/>
+					<Prp name="object left" type="I" value="56"/>
+					<Prp name="object name" type="S" value="Aliases.Explorer.wndShell_TrayWnd.ReBarWindow32.MSTaskSwWClass.MSTaskListWClass"/>
+					<Prp name="object right" type="I" value="1562"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value="tcvi23440.xml"/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="0"/>
+			</Node>
+			<Node name="item0000000001">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="1208"/>
+					<Prp name="click point y" type="I" value="979"/>
+					<Prp name="datetime" type="D" value="44699.4064814815"/>
+					<Prp name="image file name" type="S" value="tcvi45080.png"/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="object bottom" type="I" value="1155"/>
+					<Prp name="object left" type="I" value="1"/>
+					<Prp name="object name" type="S" value="Aliases.Automedi.AMMain.pResume.pForm.pSPEGRE.TScrollBoxWithControls.TFormContainer_1E2988177CF54BC899B85B50692364D0"/>
+					<Prp name="object right" type="I" value="1277"/>
+					<Prp name="object top" type="I" value="913"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value="tcvi45080.xml"/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="1"/>
+			</Node>
+			<Node name="item0000000002">
+				<Node name="data">
+					<Prp name="click point x" type="I" value="1890"/>
+					<Prp name="click point y" type="I" value="952"/>
+					<Prp name="datetime" type="D" value="44699.4065046296"/>
+					<Prp name="image file name" type="S" value="tcvi45081.png"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object bottom" type="I" value="976"/>
+					<Prp name="object left" type="I" value="1247"/>
+					<Prp name="object name" type="S" value="Aliases.Automedi.AMMain.pGlossaire.pMain.PageControl1.PanelGlossDrug.pcDrugs.tsDrugList.GridDrugsForm.pGrid.GridPanel.Grid"/>
+					<Prp name="object right" type="I" value="1911"/>
+					<Prp name="object top" type="I" value="209"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value="tcvi45081.xml"/>
+					<Prp name="version" type="I" value="1"/>
+				</Node>
+				<Prp name="index" type="I" value="2"/>
+			</Node>
+			<Prp name="key" type="S" value="{8A85063C-13AB-4245-9406-CD582AF90128}"/>
+		</Node>
+		<Prp name="signature" type="S" value="{42D2222C-ACA2-405F-8E67-05D5C42EB839}"/>
+		<Prp name="version" type="I" value="1"/>
+	</Node>
+</Nodes>

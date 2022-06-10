@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="units"/>
+		<Node name="message 4">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Possible reasons:&#xA; - An error or warning occurred during the test run. See the preceding log entries to locate and identify the error.&#xA; - The test run was stopped manually.&#xA; - The test run was terminated as a result of the Runner.Halt method call."/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44721.7776922454"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="message" type="S" value="Script execution was interrupted."/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Courier New, Arial; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} &lt;/style&gt;&lt;body&gt;&lt;p&gt;The window with the specified attributes does not exist.&lt;/p&gt;&lt;p style=&quot;margin-top: 12px;&quot;&gt;&lt;a href=&quot;aqa-help://2203&quot;&gt;Possible causes of the error&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44721.7776860417"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="message" type="S" value="Cannot obtain the window with the window class 'TMessageForm', window caption 'Подтверждение' and index 1. See Additional Information for details."/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 1">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="'терапевт' was sent as a keyboard input to a window:&#xA;&#xA;Tested object:&#xA;Aliases.Automedi.fNewCons.PageControl2.MainTabSheet.BasePanel.TypeRecPanel.TPanel.lbModels&#xA;(Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;fNewCons&quot;).VCLObject(&quot;PageControl2&quot;).VCLObject(&quot;MainTabSheet&quot;).VCLObject(&quot;BasePanel&quot;).VCLObject(&quot;TypeRecPanel&quot;).Window(&quot;TPanel&quot;, &quot;&quot;, 1).VCLObject(&quot;lbModels&quot;))"/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44721.7774967014"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (23, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Automedi.AMMain.bNewEditCons&#xA;(Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;AMMain&quot;).VCLObject(&quot;bNewEditCons&quot;))"/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44721.7774265162"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 2">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (44, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.Automedi.fNewCons.Panel1.Panel2.BitBtn1&#xA;(Sys.Process(&quot;Automedi&quot;).VCLObject(&quot;fNewCons&quot;).VCLObject(&quot;Panel1&quot;).VCLObject(&quot;Panel2&quot;).VCLObject(&quot;BitBtn1&quot;))"/>
+			<Prp name="line no" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44721.7775343403"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="stack"/>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>

@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SysNodeInfo VersionKey="{1605F88C-9478-431C-8790-C51C5E0646CD}">
+<SysNode Left="-1" Top="-1" Right="-1" Bottom="-1">
+<SysNodeName MappedName="Sys" DefaultMappedName="Sys">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="Name" Value="Sys"/>
+<NameMappingProperty Name="Id" Value="-1"/>
+</NameMappingProperties>
+<SysNode Left="-1" Top="-1" Right="-1" Bottom="-1">
+<SysNodeName MappedName="Explorer" DefaultMappedName="Explorer">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Explorer"/>
+<MethodCallInfoParam Value="1"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="ProcessName" Value="Explorer"/>
+<NameMappingProperty Name="Index" Value="1"/>
+</NameMappingProperties>
+<SysNode Left="0" Top="0" Right="1920" Bottom="40">
+<SysNodeName MappedName="wndShell_TrayWnd" DefaultMappedName="wndShell_TrayWnd">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Explorer"/>
+<MethodCallInfoParam Value="1"/>
+</MethodCallInfo>
+<MethodCallInfo Name="Window">
+<MethodCallInfoParam Value="Shell_TrayWnd"/>
+<MethodCallInfoParam Value=""/>
+<MethodCallInfoParam Value="1"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="WndClass" Value="Shell_TrayWnd"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Close" InvokeKind="1" Priority="2000">
+<Description>Closes the specified Window object.</Description>
+<Param Name="WaitTimeout" VarType="3"><DefaultValue Value="2000"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Position" InvokeKind="1" Priority="1800">
+<Description>Sets the specified position and size for the specific Window object.</Description>
+<Param Name="Left" VarType="3"></Param><Param Name="Top" VarType="3"></Param><Param Name="Width" VarType="3"></Param><Param Name="Height" VarType="3"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>1920</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>40</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+<SysNode Left="1731" Top="0" Right="1920" Bottom="40">
+<SysNodeName MappedName="" DefaultMappedName="TrayNotifyWnd">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Explorer"/>
+<MethodCallInfoParam Value="1"/>
+</MethodCallInfo>
+<MethodCallInfo Name="Window">
+<MethodCallInfoParam Value="Shell_TrayWnd"/>
+<MethodCallInfoParam Value=""/>
+<MethodCallInfoParam Value="1"/>
+</MethodCallInfo>
+<MethodCallInfo Name="Window">
+<MethodCallInfoParam Value="TrayNotifyWnd"/>
+<MethodCallInfoParam Value=""/>
+<MethodCallInfoParam Value="1"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="WndClass" Value="TrayNotifyWnd"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>189</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>40</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+<SysNode Left="1830" Top="2" Right="1905" Bottom="40">
+<SysNodeName MappedName="" DefaultMappedName="TrayClockWClass">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Explorer"/>
+<MethodCallInfoParam Value="1"/>
+</MethodCallInfo>
+<MethodCallInfo Name="Window">
+<MethodCallInfoParam Value="Shell_TrayWnd"/>
+<MethodCallInfoParam Value=""/>
+<MethodCallInfoParam Value="1"/>
+</MethodCallInfo>
+<MethodCallInfo Name="Window">
+<MethodCallInfoParam Value="TrayNotifyWnd"/>
+<MethodCallInfoParam Value=""/>
+<MethodCallInfoParam Value="1"/>
+</MethodCallInfo>
+<MethodCallInfo Name="Window">
+<MethodCallInfoParam Value="TrayClockWClass"/>
+<MethodCallInfoParam Value="12:45"/>
+<MethodCallInfoParam Value="1"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="WndClass" Value="TrayClockWClass"/>
+<NameMappingProperty Name="WndCaption" Value="12:45"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>75</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>38</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+<SysNode Left="1905" Top="0" Right="1920" Bottom="40">
+<SysNodeName MappedName="" DefaultMappedName="TrayShowDesktopButtonWClass">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Explorer"/>
+<MethodCallInfoParam Value="1"/>
+</MethodCallInfo>
+<MethodCallInfo Name="Window">
+<MethodCallInfoParam Value="Shell_TrayWnd"/>
+<MethodCallInfoParam Value=""/>
+<MethodCallInfoParam Value="1"/>
+</MethodCallInfo>
+<MethodCallInfo Name="Window">
+<MethodCallInfoParam Value="TrayNotifyWnd"/>
+<MethodCallInfoParam Value=""/>
+<MethodCallInfoParam Value="1"/>
+</MethodCallInfo>
+<MethodCallInfo Name="Window">
+<MethodCallInfoParam Value="TrayShowDesktopButtonWClass"/>
+<MethodCallInfoParam Value=""/>
+<MethodCallInfoParam Value="1"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="WndClass" Value="TrayShowDesktopButtonWClass"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>15</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>40</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+<SysNode Left="1752" Top="2" Right="1830" Bottom="40">
+<SysNodeName MappedName="" DefaultMappedName="SysPager">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Explorer"/>
+<MethodCallInfoParam Value="1"/>
+</MethodCallInfo>
+<MethodCallInfo Name="Window">
+<MethodCallInfoParam Value="Shell_TrayWnd"/>
+<MethodCallInfoParam Value=""/>
+<MethodCallInfoParam Value="1"/>
+</MethodCallInfo>
+<MethodCallInfo Name="Window">
+<MethodCallInfoParam Value="TrayNotifyWnd"/>
+<MethodCallInfoParam Value=""/>
+<MethodCallInfoParam Value="1"/>
+</MethodCallInfo>
+<MethodCallInfo Name="Window">
+<MethodCallInfoParam Value="SysPager"/>
+<MethodCallInfoParam Value=""/>
+<MethodCallInfoParam Value="1"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="WndClass" Value="SysPager"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="wPosition" InvokeKind="2" Priority="2000">
+<Value>0</Value>
+<Description>Specifies the logical position of the pager control, between wMin and wMax.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>78</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>38</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+<SysNode Left="1752" Top="2" Right="1830" Bottom="40">
+<SysNodeName MappedName="" DefaultMappedName="ToolbarWindow32">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Explorer"/>
+<MethodCallInfoParam Value="1"/>
+</MethodCallInfo>
+<MethodCallInfo Name="Window">
+<MethodCallInfoParam Value="Shell_TrayWnd"/>
+<MethodCallInfoParam Value=""/>
+<MethodCallInfoParam Value="1"/>
+</MethodCallInfo>
+<MethodCallInfo Name="Window">
+<MethodCallInfoParam Value="TrayNotifyWnd"/>
+<MethodCallInfoParam Value=""/>
+<MethodCallInfoParam Value="1"/>
+</MethodCallInfo>
+<MethodCallInfo Name="Window">
+<MethodCallInfoParam Value="SysPager"/>
+<MethodCallInfoParam Value=""/>
+<MethodCallInfoParam Value="1"/>
+</MethodCallInfo>
+<MethodCallInfo Name="Window">
+<MethodCallInfoParam Value="ToolbarWindow32"/>
+<MethodCallInfoParam Value="Пользовательская область уведомлений"/>
+<MethodCallInfoParam Value="1"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="WndClass" Value="ToolbarWindow32"/>
+<NameMappingProperty Name="WndCaption" Value="Пользовательская область уведомлений"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClickItem" InvokeKind="1" Priority="2000">
+<Description>Simulates a click on Item specified by index from 0 or by name, with shift keys in the state specified by Shift.</Description>
+<Param Name="Item" VarType="12"></Param><Param Name="ByPosition" VarType="11"><DefaultValue Value="True"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="wButtonCount" InvokeKind="2" Priority="1850">
+<Value>3</Value>
+<Description>Returns the total number of buttons in the tool bar control.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="wButtonText" InvokeKind="2" Priority="1800">
+<Description>Returns the name of the button specified by Item, which is position from 0 by default, or idCommand number if ByPosition is specified as False.</Description>
+<Param Name="Item" VarType="3"></Param><Param Name="ByPosition" VarType="11"><DefaultValue Value="True"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>78</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>38</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+</SysNode>
+<SysNode Left="1731" Top="2" Right="1752" Bottom="40">
+<SysNodeName MappedName="" DefaultMappedName="btn">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Explorer"/>
+<MethodCallInfoParam Value="1"/>
+</MethodCallInfo>
+<MethodCallInfo Name="Window">
+<MethodCallInfoParam Value="Shell_TrayWnd"/>
+<MethodCallInfoParam Value=""/>
+<MethodCallInfoParam Value="1"/>
+</MethodCallInfo>
+<MethodCallInfo Name="Window">
+<MethodCallInfoParam Value="TrayNotifyWnd"/>
+<MethodCallInfoParam Value=""/>
+<MethodCallInfoParam Value="1"/>
+</MethodCallInfo>
+<MethodCallInfo Name="Window">
+<MethodCallInfoParam Value="Button"/>
+<MethodCallInfoParam Value=""/>
+<MethodCallInfoParam Value="1"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="WndClass" Value="Button"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="ClickButton" InvokeKind="1" Priority="2000">
+<Description>Performs a single click on the specified button.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>21</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>38</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+</SysNode>
+<SysNode Left="54" Top="0" Right="1731" Bottom="40">
+<SysNodeName MappedName="ReBarWindow32" DefaultMappedName="ReBarWindow32">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Explorer"/>
+<MethodCallInfoParam Value="1"/>
+</MethodCallInfo>
+<MethodCallInfo Name="Window">
+<MethodCallInfoParam Value="Shell_TrayWnd"/>
+<MethodCallInfoParam Value=""/>
+<MethodCallInfoParam Value="1"/>
+</MethodCallInfo>
+<MethodCallInfo Name="Window">
+<MethodCallInfoParam Value="ReBarWindow32"/>
+<MethodCallInfoParam Value=""/>
+<MethodCallInfoParam Value="1"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="WndClass" Value="ReBarWindow32"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>1677</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>40</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+<SysNode Left="56" Top="0" Right="1562" Bottom="40">
+<SysNodeName MappedName="MSTaskSwWClass" DefaultMappedName="MSTaskSwWClass">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Explorer"/>
+<MethodCallInfoParam Value="1"/>
+</MethodCallInfo>
+<MethodCallInfo Name="Window">
+<MethodCallInfoParam Value="Shell_TrayWnd"/>
+<MethodCallInfoParam Value=""/>
+<MethodCallInfoParam Value="1"/>
+</MethodCallInfo>
+<MethodCallInfo Name="Window">
+<MethodCallInfoParam Value="ReBarWindow32"/>
+<MethodCallInfoParam Value=""/>
+<MethodCallInfoParam Value="1"/>
+</MethodCallInfo>
+<MethodCallInfo Name="Window">
+<MethodCallInfoParam Value="MSTaskSwWClass"/>
+<MethodCallInfoParam Value="Выполнение приложений"/>
+<MethodCallInfoParam Value="1"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="WndClass" Value="MSTaskSwWClass"/>
+<NameMappingProperty Name="WndCaption" Value="Выполнение приложений"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>1506</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>40</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+<SysNode Left="56" Top="0" Right="1562" Bottom="40">
+<SysNodeName MappedName="MSTaskListWClass" DefaultMappedName="MSTaskListWClass">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Explorer"/>
+<MethodCallInfoParam Value="1"/>
+</MethodCallInfo>
+<MethodCallInfo Name="Window">
+<MethodCallInfoParam Value="Shell_TrayWnd"/>
+<MethodCallInfoParam Value=""/>
+<MethodCallInfoParam Value="1"/>
+</MethodCallInfo>
+<MethodCallInfo Name="Window">
+<MethodCallInfoParam Value="ReBarWindow32"/>
+<MethodCallInfoParam Value=""/>
+<MethodCallInfoParam Value="1"/>
+</MethodCallInfo>
+<MethodCallInfo Name="Window">
+<MethodCallInfoParam Value="MSTaskSwWClass"/>
+<MethodCallInfoParam Value="Выполнение приложений"/>
+<MethodCallInfoParam Value="1"/>
+</MethodCallInfo>
+<MethodCallInfo Name="Window">
+<MethodCallInfoParam Value="MSTaskListWClass"/>
+<MethodCallInfoParam Value="Выполнение приложений"/>
+<MethodCallInfoParam Value="1"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="WndClass" Value="MSTaskListWClass"/>
+<NameMappingProperty Name="WndCaption" Value="Выполнение приложений"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>1506</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>40</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+</SysNode>
+<SysNode Left="1568" Top="0" Right="1731" Bottom="40">
+<SysNodeName MappedName="" DefaultMappedName="CKeyboardDeskBandClass">
+<MethodCallInfo Name="Sys">
+</MethodCallInfo>
+<MethodCallInfo Name="Process">
+<MethodCallInfoParam Value="Explorer"/>
+<MethodCallInfoParam Value="1"/>
+</MethodCallInfo>
+<MethodCallInfo Name="Window">
+<MethodCallInfoParam Value="Shell_TrayWnd"/>
+<MethodCallInfoParam Value=""/>
+<MethodCallInfoParam Value="1"/>
+</MethodCallInfo>
+<MethodCallInfo Name="Window">
+<MethodCallInfoParam Value="ReBarWindow32"/>
+<MethodCallInfoParam Value=""/>
+<MethodCallInfoParam Value="1"/>
+</MethodCallInfo>
+<MethodCallInfo Name="Window">
+<MethodCallInfoParam Value="CKeyboardDeskBandClass"/>
+<MethodCallInfoParam Value="CKeyboardDeskBandClass"/>
+<MethodCallInfoParam Value="1"/>
+</MethodCallInfo>
+</SysNodeName>
+<NameMappingProperties>
+<NameMappingProperty Name="WndClass" Value="CKeyboardDeskBandClass"/>
+<NameMappingProperty Name="WndCaption" Value="CKeyboardDeskBandClass"/>
+</NameMappingProperties>
+<UserPriorityMethods>
+<UserPriorityMethod Name="SetFocus" InvokeKind="1" Priority="1100">
+<Description>Sets focus to the specified Window object.</Description>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Click" InvokeKind="1" Priority="1000">
+<Description>Simulates a left-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="ClickR" InvokeKind="1" Priority="800">
+<Description>Simulates a right-button single click in a window or control as specified (relative position, shift keys).</Description>
+<Param Name="ClientX" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="ClientY" VarType="3"><DefaultValue Value="-1"/></Param><Param Name="Shift" VarType="29"><DefaultValue Value="0"/></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Keys" InvokeKind="1" Priority="900">
+<Description>Simulates one or several keypresses.</Description>
+<Param Name="Keys" VarType="8"></Param></UserPriorityMethod>
+<UserPriorityMethod Name="Visible" InvokeKind="2" Priority="100">
+<Value>True</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Width" InvokeKind="2" Priority="110">
+<Value>163</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Height" InvokeKind="2" Priority="110">
+<Value>40</Value>
+</UserPriorityMethod>
+<UserPriorityMethod Name="Enabled" InvokeKind="2" Priority="120">
+<Value>True</Value>
+</UserPriorityMethod>
+</UserPriorityMethods>
+</SysNode>
+</SysNode>
+</SysNode>
+</SysNode>
+</SysNode>
+</SysNodeInfo>
